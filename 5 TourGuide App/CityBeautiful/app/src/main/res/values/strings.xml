@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">CityBeautiful</string>
+    <string name="my_city">Chandigarh</string>
+    <string name="category_tourist">Tourist Places</string>
+    <string name="category_restaurant">Restaurants</string>
+    <string name="category_college">Colleges</string>
+    <string name="category_event">Events</string>
+
+    <string name="event_first_head">Rose Festival</string>
+    <string name="event_first_detail">The Rose Festival of Chandigarh is one of the
+                biggest rose shows held in India. The venue is the famous Zakir Hussein Rose Garden
+                situated in the city of Chandigarh. The garden has over 50000 rose plants and
+                bushes of more than 825 varieties</string>
+    <string name="event_first_location">Sector 12</string>
+
+    <string name="event_second_head">PEC Fest</string>
+    <string name="event_second_detail">When the city descends on the campus of PEC to
+                dance to the tunes of Groovz and Bhangratheque, swoon over Glitterati, chorus
+                to the tunes of Coke Studio and dance along Sunburn, you can be sure of one thing,
+                the sound drown out everything else in Chandigarh.</string>
+    <string name="event_second_location">Sector 14</string>
+
+    <string name="event_third_head">Mango Mela</string>
+    <string name="event_third_detail">An annual event, the Mango Mela is organized in
+                the month of  July ,is a treat for the lovers of the king of fruits, mango.
+                Hundreds of varieties of mangoes from as far as Maharasthra, Bihar,
+                Uttar Pradesh and also from Haryana, Himachal and Punjab arrive here,
+                delighting everyone with their hybrid shapes and quality.</string>
+    <string name="event_third_location">Pinjore</string>
+
+    <string name="event_fourth_head">Grub Fest</string>
+    <string name="event_fourth_detail">The Grub Fest is India biggest food festival with
+                the best restaurants displaying their signature delicacies over some good music
+                and hearty performances to keep you entertained. Take in the aromas, try out
+                interesting cuisines, fill your baskets with unique gourmet products</string>
+    <string name="event_fourth_location">Sector 17</string>
+
+    <string name="event_fifth_head">Chandigarh Carnival</string>
+    <string name="event_fifth_detail">The carnival consist of stalls exhibited
+                by various academies, NGOs and government departments who have displayed various
+                art and craft in different stalls, day-long cultural programmes by various
+                artists/performer on stage, amusement park, joy rides and camel rides for
+                kids, along with various fun and frolic activities and presence of cartoon
+                characters during the event.</string>
+    <string name="event_fifth_location">Sector 10</string>
+
+
+    <string name="tourist_first_head">Rock Garden</string>
+    <string name="tourist_first_detail">A symbol of imagination and novelty, this one is of
+                its kind of garden spread across an area of 64 acres. The Rock Garden has been
+                designed as an open air exhibition hall using urban and industrial
+                wastes by Nek Chand, a former Road Inspector in Chandigarh.</string>
+    <string name="tourist_first_location">Sector 1</string>
+
+    <string name="tourist_second_head">Sukhna Lake</string>
+    <string name="tourist_second_detail">Nestled at the foothills of Shivaliks, Sukhna Lake
+                is a beautiful lake set amid the picturesque surroundings. Quite popular amid
+                the locals and visitors, the place is a perfect destination for solitude seekers</string>
+    <string name="tourist_second_location">Sector 1</string>
+
+    <string name="tourist_third_head">Rose Garden</string>
+    <string name="tourist_third_detail">Rose garden, located at 16 sector of Chandigarh is
+                a place to relax amid the nature at its best. The garden is packed with some
+                exquisite variety of flowers making it quite popular among tourists and
+                nature enthusiasts.</string>
+    <string name="tourist_third_location">Sector 16</string>
+
+    <string name="tourist_fourth_head">Fun City</string>
+    <string name="tourist_fourth_detail">Located on an expanse of 43 acres, this water amusement
+                park in Ramgarh is the biggest in North India. It boasts of one activity pool,
+                three landing pools and a wave pool, a cluster of water slides of various shapes
+                and sizes, which makes for a delightful ride for the water lovers.</string>
+    <string name="tourist_fourth_location">Ramgarh</string>
+
+    <string name="tourist_fifth_head">Pinjore Garden</string>
+    <string name="tourist_fifth_detail">Spread over a massive area of 100 acres and
+                also known as Yadvinder Garden, Pinjore Garden is a spectacle to behold.</string>
+    <string name="tourist_fifth_location">Pinjore</string>
+
+    <string name="tourist_sixth_head">Bougainvillea Garden</string>
+    <string name="tourist_sixth_detail">With fifty varieties of bougainvillea on
+                display, this garden established in 1976 is spread over 20 acres.
+                Its popularity lies in its varied shaped bougainvilleas- arch, pavilions, a cluster
+                of bowers, and arcades. The annual Bougainvillea festival is a major draw here.</string>
+    <string name="tourist_sixth_location">Sector 2</string>
+
+    <string name="tourist_seventh_head">International Dolls Muesuem</string>
+    <string name="tourist_seventh_detail">Founded in the year 1985 by the
+                Indian Council of Child Welfare, the museum contains a wide collection of
+                fascinating dolls and marionettes brought from countries like Germany, Denmark,
+                Netherlands, Spain,Korea, and Russia that stand beside the huge Indian collection.</string>
+    <string name="tourist_seventh_location">Sector 23</string>
+
+    <string name="tourist_eighth_head">Children Traffic Park</string>
+    <string name="tourist_eighth_detail">Replete with real-life road scenarios, the Children Traffic
+                Park in Sector 23A has extensive traffic control mechanisms such as road bents,
+                inclines and declines, overpass, underpass, parallel parking area, blind alley,
+                and uncontrolled intersections, T-Intersections, Stop Signs and Blinkers.</string>
+    <string name="tourist_eighth_location">Sector 23A</string>
+
+    <string name="tourist_ninth_head">Garden of Fragnance</string>
+    <string name="tourist_ninth_detail">Garden of Fragrance as the name suggests is
+                famous for its fragrant plants such as Mehndi, Haar Shingar, Raat ki Rani, Motia,
+                Champa, demask rose and varieties of jasmine. The park with beautiful landscape
+                also offers a delightful walk for its visitors.</string>
+    <string name="tourist_ninth_location">Sector 36</string>
+
+
+    <string name="college_first_detail">Panjab University is a public collegiate
+                university located in Chandigarh, India. It originated in 1882,
+                but was established in 1947, making it one of the oldest universities in India.</string>
+    <string name="college_second_detail">Punjab Engineering College, is an engineering institute
+                located in the city of Chandigarh, India. Founded in 1921,
+                it is one of the oldest educational institutes in India</string>
+    <string name="college_third_detail">Mehr Chand Mahajan DAV College for Women,
+                Chandigarh popularly known as MCM DAV, was established in 1968
+                by the DAV College Managing Committee</string>
+    <string name="college_fourth_detail">Chitkara University in Punjab has been
+                founded by Dr.Ashok Chitkara and Dr.Madhu Chitkara who have been passionate
+                teachers for more than 40 years now.</string>
+    <string name="college_fifth_detail">The institution was incepted on 3rd July,
+                1973 in the revered memory of Goswami Ganesh Dutta Ji, who envisioned Chandigarh
+                as a focal point of culture and saw it as a potential hub
+                for Sanatanist activities.</string>
+    <string name="college_sixth_detail">Chandigarh Group of Colleges Landran has
+                been a pioneer of world class education in the past decade and a half, having
+                developed with state of the art facilities.</string>
+    <string name="college_seventh_detail">Established in October 1959, CSIO was chartered to
+                stimulate the growth of indigenous instrument industry in the country through
+                development of contemporary technologies and other scientific
+                technological assistance.</string>
+
+    <string name="college_first_head">Punjab University</string>
+    <string name="college_second_head">PEC</string>
+    <string name="college_third_head">MCM DAV</string>
+    <string name="college_fourth_head">Chitkara University</string>
+    <string name="college_fifth_head">SD College</string>
+    <string name="college_sixth_head">CGC Landran</string>
+    <string name="college_seventh_head">CSIO</string>
+
+    <string name="college_first_location">Sector 14</string>
+    <string name="college_second_location">Sector 12</string>
+    <string name="college_third_location">Sector 36A</string>
+    <string name="college_fourth_location">Baddi</string>
+    <string name="college_fifth_location">Sector 32</string>
+    <string name="college_sixth_location">Landran</string>
+    <string name="college_seventh_location">Sector 31</string>
+
+
+    <string name="restaurant_first_head">Nik Bakers</string>
+    <string name="restaurant_second_head">Whistling Duck</string>
+    <string name="restaurant_third_head">Hops And Grains</string>
+    <string name="restaurant_fourth_head">Monicas</string>
+    <string name="restaurant_fifth_head">Pal Dhaba</string>
+    <string name="restaurant_sixth_head">Brooklyn Center</string>
+    <string name="restaurant_seventh_head">The Beer Cafe</string>
+    <string name="restaurant_eighth_head">Kingdom Of Beer</string>
+
+
+    <string name="restaurant_first_detail">For those of you who love baked treats, this
+                place is a must-visit and they have plenty on offer. You can drop by for a quick
+                nibble of quiches and tarts, or have a hearty meal of burgers, sandwiches,
+                pizzas and pastas.\nMeal for two: Rs:1,500</string>
+    <string name="restaurant_second_detail">If you love big spaces, ample sunlight and
+                community tables, then the Whistling Duck is the best option, particularly for
+                Sunday brunch. The menu offers a global fare, from gyozas, gnocchi, pork chops
+                and burgers to malai tikkas and keema pao.
+                \nMeal for two: Rs:3,500</string>
+    <string name="restaurant_third_detail">The first microbrewery in the city, from the outside
+                it may seem ordinary but as you step in, the chic interiors and the vibe of the
+                place are sure to turn up your energy levels.
+                \nMeal for two: Rs 3000</string>
+    <string name="restaurant_fourth_detail">This quaint bakery may fool you with its
+                size, but it offers some spectacular cakes and pastries. It is one of the oldest
+                in town, and has a loyal fan following.
+                \nMeal for two: Rs:800</string>
+    <string name="restaurant_fifth_detail">Away from all the modernistic structures, stands the
+                humble Pal Dhaba, one of the oldest eateries in the city. A look at their hall of
+                fame and you learn that it is immensely popular among Bollywood celebs too.
+                \nMeal for two: Rs:800</string>
+    <string name="restaurant_sixth_detail">Located in the courtyard at Elante Mall, this
+                American-style resto-bar is popular with the locals. The urban industrial set-up
+                teamed with simple décor creates a casual space to catch up with friends for
+                a drink or a fun lunch.\nMeal for two: Rs 3000</string>
+   <string name="restaurant_eighth_detail">Great Place to enjoy with friends and family
+       \nMeal for two: Rs 2500 </string>
+
+
+    <string name="restaurant_first_location">Sector 35</string>
+    <string name="restaurant_second_location">Sector 26</string>
+    <string name="restaurant_third_location">Sector 36A</string>
+    <string name="restaurant_fourth_location">Sector 35</string>
+    <string name="restaurant_fifth_location">Sector 28</string>
+    <string name="restaurant_sixth_location">Elante Mall</string>
+    <string name="restaurant_seventh_location">Elante Mall</string>
+    <string name="restaurant_eighth_location">Sector 8</string>
+
+
+
+
+
+
+</resources>
