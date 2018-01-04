@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context="com.example.jaska.thinknext.MainActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_centerInParent="true"
+        android:background="@color/primaryColor">
+        <ViewFlipper
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/simple_flipper"
+            android:scrollbarFadeDuration="2">
+              <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                  <TextView
+                      style="@style/questionHeading"
+                      android:text="Question 1" />
+                    <TextView
+                        style="@style/question"
+                        android:text="Who was the world's first computer programmer?"
+                        android:id="@+id/question2"/>
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/question1">
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q1a1"
+                            android:fontFamily="casual"
+                            android:text="Charles Babbage"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="casual"
+                            android:id="@+id/q1a2"
+                            android:text="Tim Berners Lee"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q1a3"
+                            android:fontFamily="casual"
+                            android:text="Ada Lovelace"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q1a4"
+                            android:fontFamily="casual"
+                            android:text="Alan Turing"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/question_2_layout"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+                    <TextView
+                        style="@style/questionHeading"
+                        android:text="Question 2"
+                        />
+                    <TextView
+                        style="@style/question"
+                        android:text="Who among these is/are CEOs of companies?"
+                        android:id="@+id/question"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:id="@+id/q2a1"
+                        android:text="Mark Zuckerburg"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/q2a2"
+                        android:fontFamily="casual"
+                        android:text="Sundar Pichai"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/q2a3"
+                        android:fontFamily="casual"
+                        android:text="Satya Nadela"/>
+                    <CheckBox
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/q2a4"
+                        android:fontFamily="casual"
+                        android:text="Mike Schroepfer"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+                    <TextView
+                        style="@style/questionHeading"
+                        android:text="Question 3"
+                        />
+                    <TextView
+                        style="@style/question"
+                        android:text="What is the full form of WWW?"
+                        android:id="@+id/question3"/>
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/q3a1"
+                        android:fontFamily="casual"
+                        android:hint="Enter the answer here"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_margin="20dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <TextView
+                        style="@style/questionHeading"
+                        android:text="Question 4"
+                        />
+                    <TextView
+                        style="@style/question"
+                        android:text="In which year Google was found?"
+                        />
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/question4"
+                        >
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q4a1"
+                            android:fontFamily="casual"
+                            android:text="2002"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q4a2"
+                            android:fontFamily="casual"
+                            android:text="1992"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q4a3"
+                            android:fontFamily="casual"
+                            android:text="1998"/>
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/q4a4"
+                            android:fontFamily="casual"
+                            android:text="2004"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="20dp">
+                <TextView
+                    style="@style/questionHeading"
+                    android:text="Question 5"
+                    />
+                <TextView
+                    style="@style/question"
+                    android:text="Who is the co-founder of paypal and founder of Tesla and SpaceX?"
+                    android:id="@+id/question5"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/q5a1"
+                    android:fontFamily="casual"
+                    android:hint="Enter the answer here"
+                    />
+            </LinearLayout>
+
+        </ViewFlipper>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:onClick="prevQues"
+            android:text="Previous"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:onClick="nextQues"
+            android:text="Next"/>
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/submit"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:onClick="submitAnswers"
+        android:text="Submit"/>
+</LinearLayout>
