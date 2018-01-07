@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jaska.bookstore.ProductEditorActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Product Information"
+            android:padding="@dimen/default_padding"
+            android:textSize="@dimen/font_heading_size"
+            android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_default_size"
+                android:text="Product Name"/>
+            <EditText
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/product_edit_name"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_default_size"
+                android:text="Product Price"/>
+            <EditText
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/product_edit_price"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/default_padding"
+            android:textSize="@dimen/font_default_size"
+            android:text="Product Quantity"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:id="@+id/minus"
+                android:textSize="@dimen/font_heading_size">
+            </Button>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/default_padding"
+                android:textSize="@dimen/font_heading_size"
+                android:id="@+id/product_quantity"
+                android:text="0"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:id="@+id/plus"
+                android:textSize="@dimen/font_heading_size">
+            </Button>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Supplier Information"
+            android:padding="@dimen/default_padding"
+            android:textSize="@dimen/font_heading_size"
+            android:textColor="@color/colorAccent"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_default_size"
+                android:text="Supplier Name"/>
+            <EditText
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/supplier_edit_name"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_default_size"
+                android:text="Supplier Email"/>
+            <EditText
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/supplier_edit_email"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/default_padding"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/font_default_size"
+                android:text="Supplier Phone"/>
+            <EditText
+                android:layout_width="@dimen/zero_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/supplier_edit_phone"
+                android:layout_weight="1"/>
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/order"
+            android:visibility="gone"
+            android:text="Order"/>
+
+    </LinearLayout>
+
+</ScrollView>
