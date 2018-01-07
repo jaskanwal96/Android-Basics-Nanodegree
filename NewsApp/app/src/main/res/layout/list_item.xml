@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/padding_default"
+    android:paddingLeft="@dimen/padding_default"
+    android:paddingRight="@dimen/padding_default"
+    android:paddingStart="@dimen/padding_default">
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="@dimen/default_height"
+        android:padding="@dimen/small_padding"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:textSize="@dimen/text_default"
+        android:background="@color/colorPrimary"
+        tools:text="Section Name" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginStart="@dimen/margin_default"
+        android:textStyle="bold"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        tools:text="Title">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin_default"
+        android:layout_marginStart="@dimen/margin_default"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/textColorDate"
+            android:textSize="@dimen/text_default"
+            tools:text="Mar 6, 2010" />
+
+        <TextView
+            android:id="@+id/author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_default"
+            tools:text="Author Name" />
+
+    </LinearLayout>
+</LinearLayout>
